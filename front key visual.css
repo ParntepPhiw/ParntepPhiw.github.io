@@ -1,5 +1,59 @@
-#front-key-visual .carousel{
+#front-key-visual {
+	width: 100%;
+	padding: 0;
+	background: #E9ECEF;
+}
 
+.key-visual-body {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 20px;
+}
+
+.visual-container {
+	position: relative;
+}
+
+#carouselExampleIndicators {
+	width: 75%;
+}
+
+#main-info {
+	position: absolute;
+	top: 0px;
+	right: 0px;
+	width: 24%;
+	height: 100%;
+	background: white;
+}
+
+#main-info > #top-info {
+	background: #0076C0;
+	width: 100%;
+}
+
+#top-info > #top-info-img {
+	width: 34%;
+	margin-left: 33%;
+}
+
+#bottom-info > h4 {
+	color: #0076C0;
+	font-style: italic;
+	text-align: center;
+	margin-top: 10px;
+}
+
+#bottom-info > p {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: center;
+}
+
+#bottom-info > .btn {
+	width: 60%;
+	margin-left: 20%;
 }
 
 .carousel-indicators > li {
@@ -17,29 +71,52 @@
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
+.about-us-body {
+	width: 100%;
+	padding: 0;
+}
+
+.about-us-container {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 20px;
+}
+
 .about-us-image-container {
 	width: 100%;
 }
 
 .about-us-image {
 	width: 100%;
-	max-width: 800px;
 }
 
-.about-us-body > .display-4 {
+.about-us-container > .display-4 {
 	font-size: 2em;
 	color: #0076C0;
 }
 
-.about-us-body > .lead {
+.about-us-container > p {
 	font-size: 1em;
 }
 
-.package-body > .display-4 {
+.package-body {
+	width: 100%;
+	padding: 0;
+}
+
+.package-container {
+	width: 100%;
+	max-width: 1024px;
+	margin: auto;
+	padding: 20px;
+}
+
+.package-container > .display-4 {
 	font-size: 2em;
 	color: #0076C0;
 }
 
-.package-body > .lead {
+.package-container > .lead {
 	font-size: 1em;
 }
