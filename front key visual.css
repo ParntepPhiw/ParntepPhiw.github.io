@@ -27,13 +27,14 @@
 #main-info > #top-info {
 	background: #0076C0;
 	width: 100%;
-	min-height: 100px;
+	min-height: 80px;
+	padding: 5px;
 }
 
 #top-info > #top-info-img {
-	height: 100px;
-	float: left;
-	margin-right: 20px;
+	height: 80px;
+	float: right;
+	margin-left: 20px;
 }
 
 #top-info > h5 {
