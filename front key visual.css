@@ -25,3 +25,21 @@
 	width: 100%;
 	max-width: 800px;
 }
+
+.about-us-body > .display-4 {
+	font-size: 2em;
+	color: #0076C0;
+}
+
+.about-us-body > .lead {
+	font-size: 1em;
+}
+
+.package-body > .display-4 {
+	font-size: 2em;
+	color: #0076C0;
+}
+
+.package-body > .lead {
+	font-size: 1em;
+}
