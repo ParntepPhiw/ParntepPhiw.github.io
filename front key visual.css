@@ -7,7 +7,6 @@
 .key-visual-body {
 	width: 100%;
 	max-width: 1024px;
-	min-width: 600px;
 	margin: auto;
 	padding: 20px;
 }
@@ -17,44 +16,36 @@
 }
 
 #carouselExampleIndicators {
-	width: 75%;
+	width: 100%;
 }
 
 #main-info {
-	position: absolute;
-	top: 0px;
-	right: 0px;
-	width: 24%;
-	height: 100%;
+	margin-top: 20px;
 	background: white;
 }
 
 #main-info > #top-info {
 	background: #0076C0;
 	width: 100%;
+	min-height: 100px;
 }
 
 #top-info > #top-info-img {
-	width: 34%;
-	margin-left: 33%;
+	height: 100px;
+	float: left;
+	margin-right: 20px;
 }
 
-#bottom-info > h5 {
-	color: #0076C0;
+#top-info > h5 {
+	color: white;
 	font-style: italic;
-	text-align: center;
 	margin-top: 10px;
 }
 
-#bottom-info > p {
+#top-info > p {
+	color: white;
 	font-style: italic;
-	font-size: 0.75em;
-	text-align: center;
-}
-
-#bottom-info > .btn {
-	width: 60%;
-	margin-left: 20%;
+	font-size: 0.9em;
 }
 
 .carousel-indicators > li {
