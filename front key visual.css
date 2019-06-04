@@ -25,7 +25,7 @@
 }
 
 #main-info > #top-info {
-	background: #0076C0;
+	background: #0070C0;
 	width: 100%;
 	min-height: 80px;
 	padding: 5px;
@@ -55,12 +55,12 @@
 }
 
 .carousel-caption > h1 {
-	color: #0076C0;
+	color: #0070C0;
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
 .carousel-caption > p {
-	color: #0076C0;
+	color: #0070C0;
 	text-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
 }
 
@@ -86,7 +86,7 @@
 
 .about-us-container > .display-4 {
 	font-size: 2em;
-	color: #0076C0;
+	color: #0070C0;
 }
 
 .about-us-container > p {
@@ -107,7 +107,7 @@
 
 .package-container > .display-4 {
 	font-size: 2em;
-	color: #0076C0;
+	color: #0070C0;
 }
 
 .package-container > .lead {
