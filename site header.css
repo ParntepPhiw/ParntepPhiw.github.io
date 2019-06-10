@@ -17,6 +17,10 @@
 	padding: 0;
 }
 
+.navbar-nav > li {
+	font-size: 0.8em;
+}
+
 .navbar-nav > li:hover {
 	border-radius: 5px;
 	box-shadow: 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -32,6 +36,7 @@
 
 .form-inline > #language {
 	color: white;
+	font-size: 0.7em;
 	padding: 0px;
 	margin-right: 10px;
 	border-radius: 5px;
@@ -40,6 +45,7 @@
 #signup-btn {
 	margin-right: 5px;
 	width: 70px;
+	font-size: 0.65em;
 }
 
 #signup-btn:hover {
@@ -49,6 +55,7 @@
 #login-btn {
 	margin-left: 5px;
 	width: 70px;
+	font-size: 0.65em;
 }
 
 #login-btn:hover {
